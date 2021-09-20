@@ -17,7 +17,7 @@ export const SearchBar = () => {
         type="text"
         onChange={handleSearchInputChanges}
       />
-      <Button disabled>Ara</Button>
+      <Button disabled>Search</Button>
     </div>
   );
 };
