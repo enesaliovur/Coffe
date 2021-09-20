@@ -69,7 +69,7 @@ export const HeaderRight = () => {
           aria-haspopup="true"
           onClick={handleToggle}
         >
-          Toggle Menu Grow
+          Categories
         </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
           {({ TransitionProps, placement }) => (
